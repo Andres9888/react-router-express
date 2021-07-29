@@ -1,0 +1,153 @@
+@import-normalize;
+
+.App {
+  margin-right: 4%;
+  margin-left: 4%;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+}
+
+.Nav {
+  margin-bottom: 54px;
+  border-bottom: 2px solid #747474;
+}
+
+.Nav__List {
+  display: flex;
+  margin-bottom: 18px;
+  padding-left: 0;
+  list-style: none;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.Nav__Link {
+  margin-right: 72px;
+  color: grey;
+  text-decoration: none;
+}
+
+.activeRoute {
+  color: black;
+}
+.search__label {
+  text-align: left;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.search__bar {
+  margin-bottom: 54px;
+  padding: 10px;
+  width: 100%;
+  height: 42px;
+  border: 2px solid #8d8d8d;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.search__bar[type="text"] {
+  margin-left: 10px;
+}
+.content {
+  margin-bottom: 76px;
+  padding-top: 41px;
+  padding-right: 27px;
+  padding-bottom: 27px;
+  padding-left: 30px;
+  border: 2px solid #dedede;
+  text-align: left;
+}
+.title {
+  margin-bottom: 27px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.snippet {
+  color: #565656;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.top-album__header{
+  text-align: left;
+  font-size:34px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-link{
+  text-decoration: none;
+}
+.grid-item {
+  width: 23%;
+  margin-bottom: 63px;
+  color:black;
+}
+.grid-link:hover {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.grid-item__image{
+  height:239px;
+  width:273px;
+  margin-bottom: 14px;
+}
+.grid-item__name{
+  margin-left: 14px;
+  white-space: wrap;
+  text-align: left;
+  width:273px;
+  margin-bottom: 36px;
+
+}
+.grid-item__artistName{
+  margin-left: 14px;
+  white-space: nowrap;
+
+}
+
+.albumDetail{
+  display:flex;
+}
+.albumDetail__img{
+  margin-left: 82px;
+  margin-right: 253px;
+  width: 225px;
+  height: 193px;
+
+}
+
+.albumDetail__content{
+  text-align: left;
+}
+.albumDetail__artistName{
+ margin-bottom: 50px;
+ font-size: 35px;
+ margin-top: 0px; 
+}
+.albumDetail__name{
+  margin-bottom: 50px;
+  font-size: 32px;
+  font-weight: 600; 
+}
+.albumDetail__releaseDate{
+  margin-bottom: 87px;
+  font-size: 32px;
+  font-weight: 600; 
+}
+.albumDetail__button{
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  border-radius:18px;
+  background-color:#d6d6d6;
+  border:1px solid #d6d6d6;
+}
+.albumDetail__button a{
+ color:black;
+ text-decoration: none;
+ font-size: 30px;
+ font-weight: 500;
+}
